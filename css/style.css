@@ -1,0 +1,75 @@
+/* General CSS */
+
+:root {
+    --primary: #1D1D1D;
+    --secondary: #000;
+    --white: #fff;
+    --red: #df1b3c;
+    --font-family-sans-serif: Helvetica, "Helvetica Neue", Arial, "Lucida Grande"
+}
+
+@font-face {
+    font-family: Arial;
+    src: url(/css/font/arial-cufonfonts/ARIAL.TTF);
+}
+@font-face {
+    font-family: Helvetica;
+    src: url(/css/font/Helvetica-Font/Helvetica.ttf)
+}
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url(/css/font/Helvetica-Neue/Helvetica\ Neue\ W01\ 66\ Medium\ It.ttf)
+}
+@font-face {    
+    font-family: "Lucida Grande";
+    src: url(/css/font/LucidaGrande.ttf)
+}
+
+html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+a {
+    transition: color 1s;
+}
+
+.brand {
+    font-family: "Helvetica Neue";
+}
+.product-name {
+    font-family: "Lucida Grand";
+}
+.price {    
+    font-family: Arial;
+}
+
+/* Header */
+header {
+    padding: 10px 0;
+  }
+.logo {
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    width: 150px;
+    height: 100px;
+}
+.navigation {
+    padding: 10px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.navigation ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+/* Footer */
+
+/* Homepage */

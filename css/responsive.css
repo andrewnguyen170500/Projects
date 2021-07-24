@@ -1,0 +1,117 @@
+/*==================================================
+			     Media Queries         
+==================================================*/
+
+/* Large Devices (Desktops & Laptops) */
+
+@media (min-width: 1200px) {
+}
+
+/* Medium Devices (Landscape Tablets & Medium Desktops) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .stats-inner div {
+    width: 30%;
+  }
+}
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .stats-inner div {
+    width: 30%;
+  }
+  .blog-column-twoed {
+    width: 31%;
+  }
+}
+
+/* Extra Small Devices (Landscape Phones & Portrait Tablets) */
+
+@media (max-width: 767px) {
+  .stats-inner div {
+    width: 50%;
+  }
+  .slide-container {
+    width: 95%;
+    max-width: 95%;
+  }
+  .sliders {
+    padding: 0 1rem 0 1rem;
+  }
+  .hero-content div {
+    margin: 0 40px;
+  }
+  .stats-inner h5 {
+    font-size: 18px;
+  }
+  .title h3 {
+    font-size: 25px;
+  }
+  .stats-inner div {
+    width: 70%;
+  }
+  .fabs {
+    bottom: 30px;
+    position: fixed;
+    margin: 0;
+    right: 5px;
+    z-index: 998;
+  }
+  .portfolio-div {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 0.6%;
+    cursor: pointer;
+  }
+  .portfolio-gal {
+    display: block;
+  }
+  .blog-inner {
+    display: block;
+    width: 90%;
+  }
+  .blog-column-twoed {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  .blog-column-twoed img {
+    height: 200px;
+  }
+  .blog-column-oned {
+    width: 100%;
+    height: 200px;
+    margin: 10px 0;
+  }
+  .blog-column-oned img {
+    height: 200px;
+  }
+  #blog {
+    margin: 50px 0;
+    padding-bottom: 0;
+  }
+}
+
+/* Extra Small Devices (Portrait Phones & Smaller devices) */
+
+@media (max-width: 480px) {
+}
+
+/* Extra Small Devices (Portrait Phones & Smaller devices) */
+
+@media (max-width: 320px) {
+  .hero-content div {
+    margin: 0 20px;
+  }
+  .hero-content h1 {
+    font-size: 20px;
+  }
+  .chat {
+    position: fixed;
+    right: 65px;
+    bottom: 20px;
+    width: 200px;
+  }
+}
