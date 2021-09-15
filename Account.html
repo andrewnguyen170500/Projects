@@ -1,160 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- meta tags -->
-        <meta charset="utf-8" />
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <meta name="description" content="B21 is a Sydney-based brand. Shop the most luxurious releases of famous designer brands around the world. Exclusive price with many promotions." />
-        <meta name="keywords" content="fashion,apparel,shoe,sneaker,accessories,luxury,designer brand, exclusive, promotion, sale, Sydney, brand, streetwear, footwear, tops, bottoms" />
-
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-
-        <!-- title -->
-        <title>B21 - Online Retailer of Luxury Designer Brands </title>
-    
-        <!-- favicon -->
-        <link rel="shortcut icon" href="img/favicon_io/favicon.ico"/>
-
-        <!-- animation css -->
-        <link rel="stylesheet" href="css/animation/animation.css"/>
-
-        <!-- fontawesome/icon -->
-        <link rel="stylesheet" href="css/font/font-awesome.css"/>
-
-        <!-- style css-->
-        <link rel="stylesheet" href="css/style.css"/>
-
-        <!-- responsive css-->
-        <link rel="stylesheet" href="css/responsive.css"/>
-    </head>
-   
-    <body>
-        <header>
-            <div class="logo"></div>
-            <div class="navigation">
-                <ul>
-                    <li><a href="Homepage.html">Home</a></li>
-                    <li><a href="Shop.html">Shop</a></li>
-                    <li><a href="Contact.html">Contact</a></li>
-                </ul>
-            </div>
-            <div class="extra-func">
-                <button type="button" class="cart-button">
-                    <a href="Cart.html"></a>
-                </button>
-
-                <button type="button" class="account">
-                </button>
-
-                <button type="button" class="search">
-                </button>
-            </div>
-            <div class="announce">
-                <p>Sign up to get 10% off your first purchase</p>
-                <p>Free delivery for all Australia wide orders</p>
-                <p>New arrivals coming soon...</p>
-            </div>
-            <div class="banner"><img src="#" width="500" height="300"></img></div>
-        </header>
-
-        <section id="my-details">
-            <div><h2>MY DETAILS</h2></div>
-            <div>
-                <ul>
-                    <li>Account Profile</li>
-                    <li>Address Book</li>
-                    <li>Order History</li>
-                    <li>Log out</li>
-                </ul>
-            </div>
-        </section>
-
-        <section>
-            <div><h1>MY ACCOUNT PROFILE</h1></div>
-            <div>Adjust your private information below</div>
-        </section>
-
-        <section id="profile-details">
-            <div class="row">
-                <ul>
-                    <li>
-                        <label>FIRST NAME</label></br>
-                        <input type="text" placeholder="First Name"/>
-                    </li>
-                    <li>
-                        <label>LAST NAME</label></br>
-                        <input type="text" placeholder="Last Name"/>
-                    </li>
-                </ul>
-            </div>
-            <div class="row">
-                <ul>
-                    <li>
-                        <label>EMAIL ADDRESS</label></br>
-                        <input type="text" placeholder="Email Address"/>
-                    </li>
-                    <li>
-                        <label>MOBILE</label></br>
-                        <select>
-                            <option>+61</option>
-                            <option>+00</option>
-                        </select>
-                        <input type="number" placeholder="Phone Number"/>
-                    </li>
-                </ul>
-            </div>
-            <div class="row">
-                <ul>
-                    <li><input type="radio">Change Password</li>
-                    <li>
-                        <label>D.O.B</label></br>
-                        <input type="date"/>
-                    </li>
-                </ul>
-            </div>
-            <div class="row">
-                <ul>
-                    <li>
-                        <label>NEW PASSWORD</label></br>
-                        <input type="text" placeholder="New Password"/>
-                    </li>
-                    <li>
-                        <label>CONFIRM PASSWORD</label></br>
-                        <input type="text" placeholder="Confirm Password"/>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <section><button type="button">UPDATE</button></section>
-
-        <footer>
-            <div>
-                <div class="logo"></div>
-                <div class="navigation">
-                    <ul>
-                        <li>Search</li>
-                        <li><a href="Contact.html">Contact Us</a></li>
-                        <li><a href="#">Policy</a></li>
-                        <li><a href="#">Our Story</a></li>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- font awsome link -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- css link -->
+    <link rel="stylesheet" href="./sass/main.css" />
+    <title>Accoutns</title>
+  </head>
+  <body style="background-color: #ccc">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./images/logo.png" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./page/html/product.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./page/html/shop.html">shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./page/html/registration.html">contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="icon">
+          <i class="fas fa-search"></i>
+          <i class="fas fa-user"></i>
+          <i class="fas fa-shopping-cart"></i>
+        </div>
+      </div>
+    </nav>
+    <section class="my_account">
+      <div class="containers">
+        <div class="row">
+          <div class="col-md-2 fa">
+            <h2><i class="fas fa-user-circle"></i> My details</h2>
+            <p style="border-bottom: 2px solid white; padding-bottom: 0.3rem">
+              account info
+            </p>
+            <p>address book</p>
+            <p>order history</p>
+            <p style="border-bottom: 2px solid red; padding-bottom: 0.3rem">
+              log out
+            </p>
+          </div>
+          <div class="col-md-10 fas d-flex align-items-center flex-column">
+            <h2><i class="fas fa-user"></i> my account info</h2>
+            <p class="text-center">adjust you account info below</p>
+            <div class="account">
+              <form required>
+                <div class="content-wrapper">
+                  <div class="content">
+                    <div class="first">
+                      <label for="name"
+                        >First Name <span style="color: red">*</span>
+                      </label>
+                      <input
+                        type="text"
+                        id="name"
+                        placeholder="First Name"
+                        required
+                      />
+                    </div>
+                    <div class="second">
+                      <label for="lname"
+                        >Last Name <span style="color: red">*</span></label
+                      >
+                      <input
+                        type="text"
+                        id="lname"
+                        placeholder="Last Name"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="content">
+                    <div class="first">
+                      <label for="Email"
+                        >Email Address <span style="color: red">*</span></label
+                      >
+                      <input
+                        type="email"
+                        id="Email"
+                        placeholder="Email Address"
+                        required
+                      />
+                    </div>
+                    <div class="second">
+                      <label for="Mobile"
+                        >Mobile Number <span style="color: red">*</span></label
+                      >
+                      <input
+                        type="number"
+                        id="Mobile"
+                        placeholder="Mobile Number"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="content justify-content-evenly">
+                    <div
+                      class="
+                        fi
+                        d-flex
+                        justify-content-center
+                        align-items-center
+                      "
+                    >
+                      <i class="fas fa-times"></i>
+                      <label for="Email">change passwords</label>
+                    </div>
+                    <div class="second sa">
+                      <label for="date"
+                        >Date of Birth <span style="color: red">*</span></label
+                      >
+                      <input
+                        type="date"
+                        id="date"
+                        placeholder="Date  of Birth"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="content">
+                    <div class="first">
+                      <label for="password"
+                        >Password <span style="color: red">*</span></label
+                      >
+                      <input
+                        type="password"
+                        id="password"
+                        placeholder="password"
+                        required
+                      />
+                    </div>
+                    <div class="second">
+                      <label for="passwordc"
+                        >confirm password
+                        <span style="color: red">*</span></label
+                      >
+                      <input
+                        type="password"
+                        id="passwordc"
+                        placeholder="change password"
+                        required
+                      />
+                    </div>
+                  </div>
                 </div>
-                <div>
-                    <form>
-                        <label>Sign up to our Community</label>
-                        <input type="text" placeholder="Email Address"/>
-                        <button type="button"><a href="Register.html">Submit</a></button>
-                    </form>
-                </div>
+                <button onclick="change()" id="submit" type="submit">
+                  Submit
+                </button>
+              </form>
             </div>
-            <div>
-                <div>Payment Icon</div>
-                <div>Social Icon</div>
-                <div>© 2021 B21 | eCommerce website built by AndrewNguyen</div>
-            </div>    
-        </footer>
-        
-        <!-- custom JS -->
-        <script src="/js/custom.js"></script>
-    </body>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="foo">
+      <div class="content">
+        <div class="top">
+          <div class="logo-details">
+            <span class="logo_name">product</span>
+          </div>
+          <div class="media-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="link-boxes">
+          <ul class="box">
+            <li class="link_name">Links</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Get Started</a></li>
+          </ul>
+          <ul class="box">
+            <li class="link_name">Services</li>
+            <li><a href="#">App Design</a></li>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Logo Design</a></li>
+            <li><a href="#">Banner Design</a></li>
+          </ul>
+          <ul class="box">
+            <li class="link_name">Other services</li>
+            <li><a href="#">SEO</a></li>
+            <li><a href="#">Content Marketing</a></li>
+            <li><a href="#">Prints</a></li>
+            <li><a href="#">Social Media</a></li>
+          </ul>
+          <ul class="box">
+            <li class="link_name">Contact</li>
+            <li><a href="#">+91 8879887262</a></li>
+            <li><a href="#">+91 8879887262</a></li>
+            <li><a href="#">contact@sitesoch.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottom-details">
+        <div class="bottom_text">
+          <span class="copyright_text"
+            >Copyright © 2021 <a href="#">Sitesoch.</a></span
+          >
+          <span class="policy_terms">
+            <a href="#">Privacy policy</a>
+          </span>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/js.js"></script>
+  </body>
 </html>
